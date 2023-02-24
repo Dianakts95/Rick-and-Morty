@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+      
+}
+.container input {
+    border-radius: 5x;
+    height: 20px;
+}
+
+.container button{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #132F40,
+        #17C3B2
+    );
+    height: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0 15px;
+
+}  
+
+/* .div{
+display: flex;
+flex-direction: row;
+justify-content: space-around; 
+align-items: center;
+} */
