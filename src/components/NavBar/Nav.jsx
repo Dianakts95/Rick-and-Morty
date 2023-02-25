@@ -1,11 +1,20 @@
+import { NavLink } from "react-router-dom";
 import SearchBar from "../SearchBar/SearchBar.jsx";
+import styles from "../NavBar/Nav.module.css"
+
 
 const Nav = ({onSearch}) => {
     return(
-        <nav>
+        <div >
+            <NavLink  to="/about">
+                <button className={styles.button} >About</button>
+            </NavLink>
+            <NavLink to="/home">
+                <button className={styles.button}>Home</button>
+            </NavLink>
             <SearchBar onSearch={onSearch}/>
             
-        </nav>
+        </div>
     )
 }
 

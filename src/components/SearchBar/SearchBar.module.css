@@ -7,7 +7,8 @@
 }
 .container input {
     border-radius: 5x;
-    height: 20px;
+    height: 40px;
+    font-size: 20px;
 }
 
 .container button{
@@ -17,10 +18,10 @@
         #132F40,
         #17C3B2
     );
-    height: 20px;
+    height: 40px;
     border-radius: 5px;
     color: white;
-    font-size: 12px;
+    font-size: 20px;
     cursor: pointer;
     padding: 0 15px;
 
