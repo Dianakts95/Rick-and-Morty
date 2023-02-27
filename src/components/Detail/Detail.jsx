@@ -25,19 +25,17 @@ const Detail = () => {
 
     return(
         <div>
-                <button>
-                 <Link to="/home">Back </Link>
-                </button>
+            <Link to="/home">
+                <button>Back</button>
+            </Link>
             
             <h1>Detail</h1>
             <h1>{character?.name}</h1>
             <h2>{character?.status}</h2>
             <h2>{character?.specie}</h2>
             <h2>{character?.gender}</h2>
-            <h2>{character?.origin.name}</h2>
-            <img src={character?.image} alt={character.name} />
-
-
+            <h2> {character?.origin && character?.origin.name}</h2>
+            <img src={character?.image} alt={character.name} /> 
         </div>
     )
     
